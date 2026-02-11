@@ -19,7 +19,46 @@ WooCommerce se integra perfectamente con WordPress. Utiliza los mismos tipos de 
 2. **Activación del Plugin WooCommerce.**
 3. **Configuración de Permalinks:** Es crucial para que las APIs funcionen (Configuración > Enlaces permanentes > Nombre de la entrada).
 
-## Conceptos Técnicos Clave
-- **REST API:** Permite interactuar con la tienda desde aplicaciones externas.
-- **Webhooks:** Notificaciones en tiempo real sobre eventos (ej. "nuevo pedido").
-- **Temas y Child Themes:** Para personalizar la apariencia sin perder cambios en las actualizaciones.
+## Arquitectura de Datos de WooCommerce
+WooCommerce extiende la base de datos de WordPress utilizando Tablas personalizadas y Metadatos.
+
+- **Productos:** Almacenados como `product` (Post Type) con metadatos para precio, SKU y stock.
+- **Pedidos:** Almacenados como `shop_order` (Post Type).
+- **Clientes:** Basados en el sistema de usuarios de WordPress con el rol `customer`.
+
+## REST API: Uso Técnico
+La API vive en el endpoint `/wp-json/wc/v3/`. Requiere autenticación via HTTPS (Basic Auth con Key/Secret).
+
+### Ejemplo de Objeto Producto (JSON)
+```json
+{
+  "name": "Camiseta de Algodón",
+  "type": "simple",
+  "regular_price": "25.00",
+  "description": "Una camiseta cómoda y duradera.",
+  "categories": [
+    { "id": 9 }
+  ],
+  "images": [
+    { "src": "http://example.com/wp-content/uploads/shirt.jpg" }
+  ]
+}
+```
+
+### Endpoints Principales
+| Recurso | Método | Endpoint | Descripción |
+| :--- | :--- | :--- | :--- |
+| **Productos** | GET | `/products` | Listar todos los productos |
+| **Productos** | POST | `/products` | Crear un nuevo producto |
+| **Pedidos** | GET | `/orders` | Listar pedidos recientes |
+| **Stock** | PUT | `/products/<id>` | Actualizar cantidad de stock |
+
+## Requisitos del Servidor
+Para un rendimiento óptimo de la API:
+- **PHP:** 7.4 o superior (Recomendado 8.1+).
+- **MySQL:** 5.7 o superior.
+- **Memory Limit:** Mínimo 256MB.
+- **HTTPS:** Obligatorio para Basic Auth fuera de entornos locales.
+
+---
+*Esta guía es parte del proyecto de investigación sobre integraciones de e-commerce.*
