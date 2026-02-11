@@ -11,6 +11,7 @@ Este repositorio contiene una colección completa de guías, roadmaps y referenc
 | **[`wordpress_installation.md`](./wordpress_installation.md)** | Guía paso a paso para instalar WordPress localmente (LocalWP/XAMPP). |
 | **[`woocommerce_api_reference.md`](./woocommerce_api_reference.md)** | Referencia técnica detallada de parámetros, recursos y endpoints. |
 | **[`recursos_documentacion.md`](./recursos_documentacion.md)** | Enlaces oficiales y fuentes de consulta externa. |
+| **[`librerias_y_herramientas.md`](./librerias_y_herramientas.md)** | SDK de PHP y paquetes de Composer. |
 
 ## 🚀 Cómo empezar
 
