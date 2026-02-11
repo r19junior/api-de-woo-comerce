@@ -25,7 +25,11 @@ Utiliza este archivo para marcar los documentos que ya has estudiado. Esto te ay
     - [x] [`.../02-json-http/readme.md`](../roadmap/01-fundamentos/02-json-http/readme.md)
     - [x] [`.../03-autenticacion/readme.md`](../roadmap/01-fundamentos/03-autenticacion/readme.md)
     - [x] [`.../04-proyecto-practico/guia.md`](../roadmap/01-fundamentos/04-proyecto-practico/guia.md)
-- [ ] [`roadmap/02-herramientas/README.md`](../roadmap/02-herramientas/README.md) - Fase 2.
+- [ ] [`roadmap/02-herramientas/README.md`](../roadmap/02-herramientas/README.md) - **Fase 2: Herramientas y Primeros Pasos.**
+    - [ ] [`.../01-postman-insomnia/readme.md`](../roadmap/02-herramientas/01-postman-insomnia/readme.md)
+    - [ ] [`.../02-configuracion-wordpress/readme.md`](../roadmap/02-herramientas/02-configuracion-wordpress/readme.md)
+    - [ ] [`.../03-primera-peticion/readme.md`](../roadmap/02-herramientas/03-primera-peticion/readme.md)
+    - [ ] [`.../04-proyecto-practico-2/guia.md`](../roadmap/02-herramientas/04-proyecto-practico-2/guia.md)
 - [ ] [`roadmap/03-crud/README.md`](../roadmap/03-crud/README.md) - Fase 3.
 - [ ] [`roadmap/04-desarrollo/README.md`](../roadmap/04-desarrollo/README.md) - Fase 4.
 
