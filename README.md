@@ -1,33 +1,34 @@
 # Investigación: Dominando la API de WooCommerce
 
-Este repositorio contiene una colección completa de guías, roadmaps y referencias técnicas para aprender a integrar y extender WooCommerce a través de su REST API.
+Este repositorio ha sido organizado para facilitar un aprendizaje progresivo y profesional del ecosistema de e-commerce sobre WordPress.
 
-## 📂 Contenido del Proyecto
+## 📂 Organización del Proyecto
 
-| Archivo / Carpeta | Descripción |
-| :--- | :--- |
-| **[`roadmap/`](./roadmap/)** | Guía estructurada por fases (Fundamentos, Herramientas, CRUD, Desarrollo). |
-| **[`woocommerce.md`](./woocommerce.md)** | Introducción a WooCommerce y su arquitectura básica. |
-| **[`wordpress_installation.md`](./wordpress_installation.md)** | Guía paso a paso para instalar WordPress localmente (LocalWP/XAMPP). |
-| **[`woocommerce_api_reference.md`](./woocommerce_api_reference.md)** | Referencia técnica detallada de parámetros, recursos y endpoints. |
-| **[`recursos_documentacion.md`](./recursos_documentacion.md)** | Enlaces oficiales y fuentes de consulta externa. |
-| **[`librerias_y_herramientas.md`](./librerias_y_herramientas.md)** | SDK de PHP y paquetes de Composer. |
-| **[`progreso/estado_lectura.md`](./progreso/estado_lectura.md)** | **Seguimiento de tu progreso de lectura.** |
+### 1. Primeros Pasos
+Conceptos básicos y configuración inicial del entorno.
+- **[Introducción a WooCommerce](./docs/01-primeros-pasos/introduccion.md):** Arquitectura y conceptos clave.
+- **[Guía de Instalación](./docs/01-primeros-pasos/instalacion.md):** Paso a paso para LocalWP y XAMPP.
 
-## 🚀 Cómo empezar
+### 2. Referencia Técnica
+Manuales de consulta para el desarrollo activo.
+- **[Manual de la REST API](./docs/02-referencia-tecnica/api-manual.md):** Endpoints, parámetros y códigos de error.
 
-Si eres nuevo en este proyecto, te recomendamos seguir este orden:
-
-1.  **Entorno:** Sigue la [Guía de Instalación](./wordpress_installation.md) para tener tu laboratorio local.
-2.  **Conceptos:** Lee [¿Qué es WooCommerce?](./woocommerce.md) para entender la base.
-3.  **Plan de Estudio:** Dirígete a la carpeta [Roadmap](./roadmap/) y comienza con la **Fase 1**.
-4.  **Consulta:** Usa la [Referencia de la API](./woocommerce_api_reference.md) cada vez que necesites saber qué parámetros enviar en tus peticiones.
-
-## 🛠 Requisitos Sugeridos
-- PHP 7.4+
-- WordPress 6.0+
-- WooCommerce 7.0+
-- Herramientas de Testing: Postman o Insomnia.
+### 3. Recursos y Librerías
+Herramientas externas y documentación oficial optimizada.
+- **[SDK de PHP Oficial](./docs/03-recursos-externos/sdk-php-oficial.md):** Guía de uso de la librería `wc-api-php`.
+- **[Enlaces Oficiales](./docs/03-recursos-externos/enlaces-oficiales.md):** Referencias externas y tutoriales.
+- **[SDK y Librerías](./docs/03-recursos-externos/sdk-y-librerias.md):** Paquetes de Composer y herramientas.
 
 ---
-*Este material ha sido organizado para facilitar el aprendizaje progresivo y detallado de las capacidades de e-commerce sobre WordPress.*
+
+## 🗺️ Hoja de Ruta (Roadmap)
+Consulta la carpeta **[`roadmap/`](./roadmap/)** para seguir las fases de aprendizaje:
+- [Fase 1: Fundamentos](./roadmap/01-fundamentos/README.md)
+- [Fase 2: Herramientas](./roadmap/02-herramientas/README.md)
+- [Fase 3: CRUD](./roadmap/03-crud/README.md)
+- [Fase 4: Desarrollo](./roadmap/04-desarrollo/README.md)
+
+---
+
+## 📈 Seguimiento del Progreso
+Marca tus avances en el archivo de **[Estado de Lectura](./progreso/estado_lectura.md)**.
