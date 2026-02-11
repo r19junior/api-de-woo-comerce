@@ -10,6 +10,7 @@ Este repositorio contiene una colección completa de guías, roadmaps y referenc
 | **[`woocommerce.md`](./woocommerce.md)** | Introducción a WooCommerce y su arquitectura básica. |
 | **[`wordpress_installation.md`](./wordpress_installation.md)** | Guía paso a paso para instalar WordPress localmente (LocalWP/XAMPP). |
 | **[`woocommerce_api_reference.md`](./woocommerce_api_reference.md)** | Referencia técnica detallada de parámetros, recursos y endpoints. |
+| **[`recursos_documentacion.md`](./recursos_documentacion.md)** | Enlaces oficiales y fuentes de consulta externa. |
 
 ## 🚀 Cómo empezar
 
