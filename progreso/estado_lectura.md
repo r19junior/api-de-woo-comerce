@@ -4,12 +4,12 @@ Utiliza este archivo para marcar los documentos que ya has estudiado. Esto te ay
 
 ## 📁 Estructura General y Guías
 
-- [ ] [`README.md`](../README.md) - Página de inicio y organización.
-- [ ] [`woocommerce.md`](../woocommerce.md) - Conceptos básicos y arquitectura.
-- [ ] [`wordpress_installation.md`](../wordpress_installation.md) - Guía de configuración local.
-- [ ] [`woocommerce_api_reference.md`](../woocommerce_api_reference.md) - Referencia técnica detallada (Endpoints y Parámetros).
-- [ ] [`recursos_documentacion.md`](../recursos_documentacion.md) - Enlaces oficiales y recursos externos.
-- [ ] [`librerias_y_herramientas.md`](../librerias_y_herramientas.md) - SDK de PHP y herramientas de integración.
+- [x] [`README.md`](../README.md) - Página de inicio y organización.
+- [x] [`woocommerce.md`](../woocommerce.md) - Conceptos básicos y arquitectura.
+- [x] [`wordpress_installation.md`](../wordpress_installation.md) - Guía de configuración local.
+- [x] [`woocommerce_api_reference.md`](../woocommerce_api_reference.md) - Referencia técnica detallada (Endpoints y Parámetros).
+- [x] [`recursos_documentacion.md`](../recursos_documentacion.md) - Enlaces oficiales y recursos externos.
+- [x] [`librerias_y_herramientas.md`](../librerias_y_herramientas.md) - SDK de PHP y herramientas de integración.
 
 ---
 
