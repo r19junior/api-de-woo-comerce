@@ -20,7 +20,11 @@ Utiliza este archivo para marcar los documentos que ya has estudiado. Esto te ay
 ---
 
 ## 🗺️ Roadmap Progresivo
-- [ ] [`roadmap/01-fundamentos/README.md`](../roadmap/01-fundamentos/README.md) - Fase 1.
+- [x] [`roadmap/01-fundamentos/README.md`](../roadmap/01-fundamentos/README.md) - **Fase 1: Fundamentos.**
+    - [x] [`.../01-wordpress-core/readme.md`](../roadmap/01-fundamentos/01-wordpress-core/readme.md)
+    - [x] [`.../02-json-http/readme.md`](../roadmap/01-fundamentos/02-json-http/readme.md)
+    - [x] [`.../03-autenticacion/readme.md`](../roadmap/01-fundamentos/03-autenticacion/readme.md)
+    - [x] [`.../04-proyecto-practico/guia.md`](../roadmap/01-fundamentos/04-proyecto-practico/guia.md)
 - [ ] [`roadmap/02-herramientas/README.md`](../roadmap/02-herramientas/README.md) - Fase 2.
 - [ ] [`roadmap/03-crud/README.md`](../roadmap/03-crud/README.md) - Fase 3.
 - [ ] [`roadmap/04-desarrollo/README.md`](../roadmap/04-desarrollo/README.md) - Fase 4.
